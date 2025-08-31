@@ -1,0 +1,19 @@
+.difficulty-selection button {
+  margin-right: 10px;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.difficulty-selection button:hover {
+  background-color: #e0e0e0;
+}
+
+.difficulty-selection button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}

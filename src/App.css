@@ -1,0 +1,15 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure it takes full viewport height */
+}
+
+main {
+  flex-grow: 1; /* Allow main content to take available space */
+  padding: 20px; /* Add some padding to main content */
+  background-color: #f0f0f0; /* Light background for distinction */
+  margin: 20px; /* Margin around the main content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #333; /* Darker text for contrast */
+}

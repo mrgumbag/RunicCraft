@@ -7,10 +7,10 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">서버 소개</Link>
           </li>
           <li>
-            <Link to="/calculator">Calculator</Link>
+            <Link to="/calculator">확률 계산기</Link>
           </li>
           <li>
             <Link to="/guides">Guides</Link>

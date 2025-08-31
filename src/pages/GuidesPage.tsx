@@ -1,4 +1,4 @@
-function GuidesPage() {
+export default function GuidesPage() {
   return (
     <div>
       <h2>Guides</h2>
@@ -6,5 +6,3 @@ function GuidesPage() {
     </div>
   );
 }
-
-export default GuidesPage;
